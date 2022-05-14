@@ -1,4 +1,1 @@
-from os import system
-system ("git clone https://github.com/gillzxo/apptest && cd apptest && python3 -m bot")
-
-print ("YOU GOT ERROR ")
+python3 $PYTHON_FILE
