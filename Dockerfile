@@ -4,7 +4,7 @@ RUN chmod 777 /usr/src/app
 
 RUN apt-get update
      
-RUN git clone https://github.com/gillzxo/apptest apptest  
+RUN git clone https://github.com/gillzxo/apptest apptest
 
 COPY . .
 RUN pip3 install --no-cache-dir -r requirements.txt
