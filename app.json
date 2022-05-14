@@ -1,22 +1,22 @@
 {
-  "name": "v1u",
-  "description": "Wku",
+  "name": "vhhgvh1u",
+  "description": "Wkjhhhhbu",
   "keywords": [
-    "tam",
-    "on",
-    "soce",
+    "hhtam",
+    "ohhhn",
+    "shhhoce",
     "mui",
-    "pose",
-    "ree",
-    "dyer"
+    "phhhhose",
+    "rbbbee",
+    "dyhhhjer"
   ],
   "env": {
-    "OTHER_IS": {
+    "OTvvvhhHER_IS": {
       "description": "If you ge",
       "value": "None",
       "required": false
     },
-    "ZATH": {
+    "ZAhhhbhbTH": {
       "description": "Enter the githuv pass",
       "value": "https://github.com/lomda",
       "required": false
@@ -26,7 +26,7 @@
       "value": "main.py",
       "required": false
     },
-     "OTHER_CMD": {
+     "OTHbvvvbbER_CMD": {
       "description": "If you need to run any bash command other than python specify here",
       "value": "None",
       "required": false
@@ -38,7 +38,7 @@
         "options": {
           "version": "12"
         },
-        "as":"DB_URI"
+        "as":"DBi_URI"
       }
     ],
     "stack": "container"
