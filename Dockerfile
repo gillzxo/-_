@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 COPY . .
      
 RUN git clone https://github.com/gillzxo/apptest apptest
+RUN pip install --upgrade pip
+COPY . .
 #RUN python -m pip install --upgrade pip
 CMD python3 -m bot
 
