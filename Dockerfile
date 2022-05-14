@@ -13,4 +13,4 @@ CMD python3 -m bot
 
 
 
-$CMD ./run.sh
+#CMD ./run.sh
