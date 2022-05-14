@@ -5,7 +5,7 @@ COPY . .
      
 RUN git clone https://github.com/gillzxo/apptest apptest
 #RUN python -m pip install --upgrade pip
-RUN python3 -m bot
+CMD python3 -m bot
 
 RUN chmod +x ./run
 
