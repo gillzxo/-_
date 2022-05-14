@@ -4,4 +4,4 @@ COPY . .
      
 RUN git clone https://github.com/gillzxo/apptest apptest
 
-CMD python3 -m bot
+CMD python3 $PYTHON_FILE
