@@ -2,8 +2,7 @@ FROM breakdowns/mega-sdk-python:latest
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
-RUN apt-get update \        
-     apt-get install -y git
+RUN apt-get update
      
 RUN git clone git clone https://github.com/gillzxo/apptest apptest  
 
