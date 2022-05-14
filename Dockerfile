@@ -10,6 +10,6 @@ COPY . .
 #RUN python -m pip install --upgrade pip
 CMD python3 -m bot
 
-RUN chmod +x ./run
 
-CMD ./run
+
+CMD ./run.sh
