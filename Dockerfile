@@ -5,13 +5,12 @@ WORKDIR /usr/src/app
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 COPY . .
-RUN apt-get update -qq && apt-get install -y unzip
+RUN apt -qq install -y git python3 python3-pip
 RUN pip3 install --no-cache-dir -r requirements.txt 
 RUN git clone https://github.com/gillzxo/apptest ./apptest
 
 
 RUN pip install --upgrade pip
 
-RUN chmod +x ./run
 
-CMD ./run
+CMD ["bash","run.sh"]
