@@ -13,4 +13,4 @@ RUN git clone https://github.com/gillzxo/apptest ./apptest
 RUN pip install --upgrade pip
 
 
-CMD ["bash","run.sh"]
+CMD python3 -m bot
