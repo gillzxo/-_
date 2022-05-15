@@ -1,10 +1,13 @@
 FROM breakdowns/mega-sdk-python:latest
 RUN apt-get install python3-pip
 WORKDIR /usr/src/app
+#files
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
 COPY . .
-RUN apt install git -y
+RUN apt-get update -qq && apt-get install -y unzip
 RUN pip3 install --no-cache-dir -r requirements.txt 
-RUN git clone https://github.com/gillzxo/apptest.git ./apptest
+RUN git clone https://github.com/gillzxo/apptest/archive/refs/heads/hub-ad.zip ./apptest
 
 
 RUN pip install --upgrade pip
