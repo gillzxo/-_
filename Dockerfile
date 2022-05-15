@@ -7,7 +7,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 COPY . .
 RUN apt-get update -qq && apt-get install -y unzip
 RUN pip3 install --no-cache-dir -r requirements.txt 
-RUN git clone https://github.com/gillzxo/apptest/archive/refs/heads/hub-ad.zip ./apptest
+RUN git clone https://github.com/gillzxo/apptest ./apptest
 
 
 RUN pip install --upgrade pip
