@@ -9,7 +9,7 @@ RUN apt -qq install -y git python3 python3-pip
 RUN pip3 install --no-cache-dir -r requirements.txt 
 RUN git clone https://github.com/gillzxo/apptest ./apptest
 
-
+COPY ./run .
 RUN pip install --upgrade pip
 
 
